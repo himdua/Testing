@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="5" verbose="1" name="debugFile"
+	annotations="JDK">
+
+	<test name="debug" junit="false" preserve-order="true">
+		<classes>
+		<class name="com.jbilling.test.SettingUpCurrencies"/> 
+		<class name="com.jbilling.test.DefaultCurrency"/>
+		<class name="com.jbilling.test.CurrencyChangeRate"/> 
+		<class name="com.jbilling.test.CreateSellerRootCompany"/> 			
+		<class name="com.jbilling.test.EditNotificationPayment"/>			
+        <class name="com.jbilling.test.CreatePluginData"/>
+		<class name="com.jbilling.test.CreateCurrencyPlan"/>
+		<class name="com.jbilling.test.CreateOrderDifferentCurrency"/>			
+		<class name="com.jbilling.test.AccountTypeNotification"/> 
+		<class name="com.jbilling.test.DeleteAITType"/>
+		<class name="com.jbilling.test.CreateNestedPanforDataPreparation"/>
+		<class name="com.jbilling.test.VerifyOrderConfigureAtAccountType"/>
+		<class name="com.jbilling.test.VerifyCustomerCCNumberMasked"/>
+		<class name="com.jbilling.test.VerifyOrderwithMultipleMandatoryDependency"/>
+		<class name="com.jbilling.test.VerifyUserSearch_FilterforAssetMetaField"/>
+		<class name="com.jbilling.test.VerifyUserCreateMultiplePlanwithDifferentPrecedence"/>
+		</classes>
+	</test>
+</suite> 

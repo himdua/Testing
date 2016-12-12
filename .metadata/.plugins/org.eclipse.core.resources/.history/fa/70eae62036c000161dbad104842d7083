@@ -1,0 +1,95 @@
+package main.java;
+
+import java.io.File;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+
+public class MainClass {
+	public WebDriver driver;
+	
+	public enum Browser{
+		Firefox, Chrome, IE;
+	}
+
+	public String getPath()
+    {
+        String path = "";
+        File file = new File("");
+        String absolutePathOfFirstFile = file.getAbsolutePath();
+        path = absolutePathOfFirstFile.replaceAll("\\\\+", "/");
+        return path;
+    }
+	public WebDriver launchBrowser(String webBrowser){
+		Browser browser=Browser.valueOf(webBrowser);
+		driver=null;
+		switch (browser){
+		
+		case Firefox:
+			driver= new FirefoxDriver();
+			break;
+			
+		case IE:
+	            String path = getPath();
+
+	            File file = new File(path
+	                    + "//IEWebdriver//IEDriverServer.exe");
+	            System.setProperty("webdriver.ie.driver",
+	                    file.getAbsolutePath());
+	            DesiredCapabilities capabilities = new DesiredCapabilities();
+	            capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS,
+	                    true);
+	            capabilities
+	            .setCapability(
+	                    InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,
+	                    true);
+	            capabilities.setCapability(
+	                    InternetExplorerDriver.IE_ENSURE_CLEAN_SESSION, false);
+	            driver = new InternetExplorerDriver(capabilities);
+			break;
+			
+		case Chrome:
+		String filePath =System.getProperty("user.dir");
+		System.setProperty("webdriver.chrome.driver",filePath+"//drivers//chromedriver.exe");
+		driver=new ChromeDriver();
+		break;
+		}
+		return driver;
+		
+	}
+	
+	public void openApplication(){
+		driver.manage().window().maximize();
+		driver.get("https://www.google.co.in/");
+	}
+		
+	public void a() {		
+		System.out.println("Test Project ::::::A");
+		System.out.println("Successfully Run :::::::A");
+
+}
+	
+	public void b() {
+		System.out.println("Test Project::::::::::B");
+		System.out.println("Successfully Run::::::::::B");
+
+}
+	
+	public void c() {
+		System.out.println("Test Project:::C");
+		System.out.println("Successfully Run ::::::::C");
+
+}
+	
+	public void d() {
+		System.out.println("Test Project:::::::::D");
+		System.out.println("Successfully Run ::::::::::::D");
+
+}
+	
+}

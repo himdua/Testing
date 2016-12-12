@@ -1,0 +1,11 @@
+package com.sapienter.jbilling.client.edi
+
+class EDIStatistic {
+    String transactionType
+    Long inbound
+    Long outbound
+
+    Long getTotal(){
+        return inbound + outbound
+    }
+}

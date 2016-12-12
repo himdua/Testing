@@ -1,0 +1,18 @@
+<testdata>
+	<testdataset name="payInvoice" category="aa" testenv="develop|lab3">
+		<rowText>17</rowText>
+		<amount>5.00</amount>
+		<name>Ashish</name>
+		<number>4111111111111152</number>
+		<date>12/2020</date>
+		<order>2{RANDOMNUM}</order>
+	</testdataset>
+	
+		<testdataset name="verifyInvoiceDetails" category="vid" testenv="develop|lab3">
+		<expectedPaidAmount>40.00</expectedPaidAmount>
+		<expectedBalanceAmount>20.00</expectedBalanceAmount>
+		<expectedStatus>Unpaid</expectedStatus>
+		<expectedFinalStatus>Paid</expectedFinalStatus>
+		</testdataset>
+				
+</testdata> 

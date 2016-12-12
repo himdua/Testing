@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite thread-count="5" parallel="tests" verbose="1" name="TestClass"
+	annotations="JDK" >
+	
+	<test name="Demo" junit="false" preserve-order="true">
+	<parameter name="browser" value="Firefox"/>
+		<classes>
+			<!-- <class name="test.java.TestClass"/>	 -->
+			<class name="test.java.NewClass"/>	
+		</classes>
+	</test>
+	<!-- <test name="IEDemo" junit="false" preserve-order="true">
+	 <parameter name="browser" value="IE"/>
+		<classes>
+			<class name="test.java.TestClass">	
+			</class>
+			<class name="test.java.NewClass">	
+			</class>
+		</classes>
+	</test> -->
+	
+</suite> 

@@ -1,0 +1,16 @@
+package main.java;
+
+import org.testng.annotations.Test;
+
+
+public class TestClass {
+
+	//public static void main(String[] args) {
+	@Test
+	public void a(){
+		System.out.println("Test Project");
+		System.out.println("Successfully Run");
+
+	
+	}
+}

@@ -1,0 +1,34 @@
+package test.java;
+
+
+import main.java.MainClass;
+
+import org.testng.annotations.Test;
+
+public class TestClass {
+
+	public MainClass sa = new MainClass();
+	
+	@Test(groups={"a"},priority=2)
+	public void testMethod(){
+		sa.a();
+	}
+	
+	@Test(groups ={"a"},priority=1)
+	public void testMethodb(){
+		sa.b();
+	}
+	
+	@Test(groups ={"a"},priority=3)
+	public void testMethodC(){
+		sa.c();
+	}
+	
+	@Test(groups ={"b"}, dependsOnGroups={"a"})
+	public void testMethodD(){
+		sa.d();
+	}
+	
+
+	}
+

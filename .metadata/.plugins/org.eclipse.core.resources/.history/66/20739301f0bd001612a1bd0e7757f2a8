@@ -1,0 +1,24 @@
+package test.java;
+
+
+import main.java.MainClass;
+
+import org.testng.annotations.Test;
+
+public class TestClass {
+
+	public MainClass sa = new MainClass();
+	
+	@Test(groups={"a"})
+	public void testMethod(){
+		sa.a();
+	}
+	
+	@Test(groups ={"a"})
+	public void testMethodb(){
+		sa.b();
+	}
+	
+
+	}
+

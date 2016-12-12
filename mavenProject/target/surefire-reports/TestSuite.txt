@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.602 sec <<< FAILURE! - in TestSuite
+seleniumTest(test.java.TestClass)  Time elapsed: 0.02 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at test.java.TestClass.seleniumTest(TestClass.java:20)
+
+seleniumTest(test.java.TestClass)  Time elapsed: 0.02 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at test.java.TestClass.seleniumTest(TestClass.java:20)
+
+seleniumTest(test.java.NewClass)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Name is null
+	at test.java.NewClass.seleniumTest(NewClass.java:16)
+
+seleniumTest(test.java.NewClass)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Name is null
+	at test.java.NewClass.seleniumTest(NewClass.java:16)
+

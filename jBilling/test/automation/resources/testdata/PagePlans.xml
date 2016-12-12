@@ -1,0 +1,328 @@
+<testdata>
+	<testdataset name="addplan" category="ap" testenv="develop|lab3">
+		<productCode>PLANA{RANDOM}</productCode>
+		<description>English</description>
+		<englishDescription>Plan A{RANDOM}</englishDescription>
+		<rate>100</rate>
+		<category>New Test Category</category>
+		<bundleQuantity>1</bundleQuantity>
+		<rateProduct>15</rateProduct>
+	</testdataset>
+	<testdataset name="editPlan" category="ap" testenv="develop|lab3">
+		<pricing>Zero</pricing>
+	</testdataset>
+	<testdataset name="addplan62.2" category="ap" testenv="develop|lab3">
+		<productCode>PLANA{RANDOM}</productCode>
+		<description>English</description>
+		<englishDescription>Plan A{RANDOM}</englishDescription>
+		<rate>8</rate>
+		<bundleQuantity>1</bundleQuantity>
+		<rateProduct>15</rateProduct>
+	</testdataset>
+	<testdataset name="addplan62.3" category="ap" testenv="develop|lab3">
+		<productCode>PLANA{RANDOM}</productCode>
+		<description>English</description>
+		<englishDescription>Plan A{RANDOM}</englishDescription>
+		<rate>8</rate>
+		<bundleQuantity>1</bundleQuantity>
+	</testdataset>
+	<testdataset name="addplan62.3.1" category="ap" testenv="develop|lab3">
+		<productCode>PLANA{RANDOM}</productCode>
+		<description>English</description>
+		<englishDescription>Plan A{RANDOM}</englishDescription>
+		<rate>10</rate>
+		<bundleQuantity>5</bundleQuantity>
+		<rateProduct>8</rateProduct>
+		<bundledPeriod>Monthly</bundledPeriod>
+		<bundledPeriodOneTime>One time</bundledPeriodOneTime>
+	</testdataset>
+	<testdataset name="TC_62.4_addplan" category="ap" testenv="develop|lab3">
+		<productCode>PLAN4{RANDOM}</productCode>
+		<description>English</description>
+		<englishDescription>Plan 4{RANDOM}</englishDescription>
+		<rate>6</rate>
+		<bundleQuantity>5</bundleQuantity>
+		<rateProduct>8</rateProduct>
+		<bundledPeriod>Monthly</bundledPeriod>
+	</testdataset>
+	<testdataset name="TC_62.5_addplan" category="ap" testenv="develop|lab3">
+		<productCode>PLAN4{RANDOM}</productCode>
+		<description>English</description>
+		<englishDescription>Plan 4{RANDOM}</englishDescription>
+		<rate>7</rate>
+		<bundleQuantity>3</bundleQuantity>
+		<rateProduct>4</rateProduct>
+		<bundledPeriod>Monthly</bundledPeriod>
+		<bundleQuantity2>4</bundleQuantity2>
+		<rateProduct2>3</rateProduct2>
+	</testdataset>
+
+	<testdataset name="addPlanForMobileCall" category="apfmc" testenv="develop|lab3">
+		<productCode>FUP{RANDOM}</productCode>
+		<description>English</description>
+		<englishDescription>FUPplan{RANDOM}</englishDescription>
+		<category>National Mobile call</category>
+	</testdataset>
+	
+
+	<testdataset name="TC_62.6_addplan_a" category="ap" testenv="develop|lab3">
+		<productCode>PLANA{RANDOM}</productCode>
+		<description>English</description>
+		<englishDescription>Plan A{RANDOM}</englishDescription>
+		<rate>2</rate>
+		<bundleQuantity>3</bundleQuantity>
+		<rateProduct>2</rateProduct>
+		<note>Some Automatic Text</note>
+	</testdataset>
+	<testdataset name="TC_62.6_addplan_b" category="ap" testenv="develop|lab3">
+		<productCode>PLANB{RANDOM}</productCode>
+		<description>English</description>
+		<englishDescription>Plan B{RANDOM}</englishDescription>
+		<rate>2</rate>
+		<bundleQuantity>0</bundleQuantity>
+		<rateProduct>2</rateProduct>
+		<note>Some Automatic Text</note>
+		<bundledPeriod>Monthly</bundledPeriod>
+		<precedence>1</precedence>
+	</testdataset>
+<testdataset name="addProductOnePerOrder" category="ap" testenv="develop|lab3">
+		<productCode>PLAN1{RANDOM}</productCode>
+		<description>English</description>
+		<englishDescription>Plan 1{RANDOM}</englishDescription>	
+	</testdataset>
+	<testdataset name="yearlyPrePaid" category="ypp" testenv="develop|lab3">
+		<productCode>PLAN4{RANDOM}</productCode>
+		<description>English</description>
+		<englishDescription>Plan 4{RANDOM}</englishDescription>
+		<rate>7</rate>
+		<period>One time</period>
+		<type>pre paid</type>
+		<bundleQuantity>3</bundleQuantity>
+		<rateProduct>4</rateProduct>
+		<bundledPeriod>Yearly</bundledPeriod>
+		<bundleQuantity2>4</bundleQuantity2>
+		<rateProduct2>3</rateProduct2>
+		<bundledPeriodOneTime>One time</bundledPeriodOneTime>
+	</testdataset>
+	<testdataset name="monthlyPrePaid" category="mpp" testenv="develop|lab3">
+		<productCode>PLAN4{RANDOM}</productCode>
+		<description>English</description>
+		<englishDescription>Plan 4{RANDOM}</englishDescription>
+		<rate>7</rate>
+		<period>One time</period>
+		<type>pre paid</type>
+		<bundleQuantity>3</bundleQuantity>
+		<rateProduct>4</rateProduct>
+		<bundleQuantity2>4</bundleQuantity2>
+		<rateProduct2>3</rateProduct2>
+		<bundledPeriodOneTime>One time</bundledPeriodOneTime>
+	</testdataset>
+	<testdataset name="yearlyPostPaid" category="ypp" testenv="develop|lab3">
+		<productCode>PLAN4{RANDOM}</productCode>
+		<description>English</description>
+		<englishDescription>Plan 4{RANDOM}</englishDescription>
+		<rate>7</rate>
+		<bundleQuantity>3</bundleQuantity>
+		<rateProduct>4</rateProduct>
+		<bundledPeriod>Yearly</bundledPeriod>
+		<bundleQuantity2>4</bundleQuantity2>
+		<rateProduct2>3</rateProduct2>
+		<bundledPeriodOneTime>One time</bundledPeriodOneTime>
+	</testdataset>
+	<testdataset name="withBundle" category="wb" testenv="develop|lab3">
+		<productCode>PLAN4{RANDOM}</productCode>
+		<description>English</description>
+		<englishDescription>Plan 4{RANDOM}</englishDescription>
+		<rate>5</rate>
+		<period>One time</period>
+		<type>pre paid</type>
+		<bundleQuantity>3</bundleQuantity>
+		<rateProduct>5</rateProduct>
+		<bundleQuantity2>4</bundleQuantity2>
+		<rateProduct2>3</rateProduct2>
+		<bundledPeriodOneTime>One time</bundledPeriodOneTime>
+	</testdataset>
+	<testdataset name="withOutBundle" category="wob" testenv="develop|lab3">
+		<productCode>PLAN4{RANDOM}</productCode>
+		<description>English</description>
+		<englishDescription>Plan 4{RANDOM}</englishDescription>
+		<rate>5</rate>
+		<period>One time</period>
+		<type>pre paid</type>
+		<bundleQuantity>0</bundleQuantity>
+		<rateProduct>5</rateProduct>
+		<bundleQuantity2>4</bundleQuantity2>
+		<rateProduct2>3</rateProduct2>
+		<bundledPeriodOneTime>One time</bundledPeriodOneTime>
+	</testdataset>
+
+	<testdataset name="addplanwithdiffer" category="currplan" testenv="develop|lab3">
+		<productCode>PLANA{RANDOM}</productCode>
+		<description>English</description>
+		<englishDescription>Plan A{RANDOM}</englishDescription>
+		<currencydiffer>Won</currencydiffer>
+		<rate>100</rate>
+	</testdataset>
+	<testdataset name="addPlanWithProductMetaField" category="ap" testenv="develop|lab3">
+		<productCode>New Product with Metafield</productCode>
+		<description>English</description>
+		<englishDescription>New Product with Metafield</englishDescription>
+		<metaFieldName>New Meta1</metaFieldName>
+		<precedence>-1</precedence>
+		<rate>10</rate>
+		<bundleQuantity>1</bundleQuantity>
+		<rateProduct>0</rateProduct>
+		<IncludedQuantity>1000</IncludedQuantity>
+		<bundledPeriod>Monthly</bundledPeriod>
+		<pricing>Flat</pricing>
+		<productCategory2>SMS to North America</productCategory2>
+		<precedence2>-1</precedence2>
+		<quantity1>0</quantity1>
+		<period2>One time</period2>
+		<pricing2>Flat</pricing2>
+		<rate2>2</rate2>
+	</testdataset>
+		<testdataset name="addPlanWithProductUpdateMetaField" category="ap" testenv="develop|lab3">
+		<metaFieldName>New Update Meta2</metaFieldName>		
+	</testdataset>
+	<testdataset name="addplanPooledPrice1" category="ap" testenv="develop|lab3">
+		<productCode>Premium Plan - 1000 free minutes</productCode>
+		<description>Premium Plan - 1000 free minutes</description>
+		<englishDescription>Premium Plan - 1000 free minutes</englishDescription>
+		<rate>10</rate>
+		
+		<bundleQuantity>0</bundleQuantity>
+		<rateProduct>0</rateProduct>
+		<IncludedQuantity>1000</IncludedQuantity>
+		<bundledPeriod>Monthly</bundledPeriod>
+	</testdataset>
+	
+		<testdataset name="addPlanWithMulitpleCategory" category="currplan" testenv="develop|lab3">
+		<productCode>Basic Tariff Plan</productCode>
+		<description>English</description>
+		<englishDescription>Basic Tariff Plan{RANDOM}</englishDescription>
+<productcode1>MSISDN-01</productcode1>
+<productcode2>GPRS</productcode2>
+<productcode3>SMS</productcode3>
+<productcode4>Connection Fee</productcode4>
+	</testdataset>
+	<testdataset name="addplanwithdiffer" category="currplan" testenv="develop|lab3">
+		<productCode>PLANA{RANDOM}</productCode>
+		<description>English</description>
+		<englishDescription>Plan A{RANDOM}</englishDescription>
+		<currencydiffer>Won</currencydiffer>
+		<rate>100</rate>
+	</testdataset>
+	<testdataset name="withOutProductRate" category="wopr" testenv="develop|lab3">
+		<productCode>PLAN D_{RANDOM}</productCode>
+		<description>English</description>
+		<englishDescription>Plan D_{RANDOM}</englishDescription>
+		<rate>17</rate>
+		<bundleQuantity>1</bundleQuantity>
+		</testdataset>
+		
+		<testdataset name="addPlanWithMultipleProduct" category="ap" testenv="develop|lab3">
+		<productCode>SMS Rate plan</productCode>
+		<description>SMS Rate plan</description>
+		<englishDescription>SMS Rate plan</englishDescription>
+		<precedence>-1</precedence>
+		<rate>10</rate>
+		<bundleQuantity>1</bundleQuantity>
+		<rateProduct>0</rateProduct>
+		<IncludedQuantity>1000</IncludedQuantity>
+		<bundledPeriod>Monthly</bundledPeriod>
+		<pricing>Flat</pricing>
+		<productCategory2>SMS to North America</productCategory2>
+		<precedence2>-1</precedence2>
+		<quantity1>0</quantity1>
+		<period2>One time</period2>
+		<pricing2>Flat</pricing2>
+		<rate2>2</rate2>
+	</testdataset>
+	
+	<testdataset name="AddPlanwithSingleProduct" category="ap" testenv="develop|lab3">
+		<productCode>SMS Rate plan</productCode>
+		<description>SMS Rate plan</description>
+		<englishDescription>SMS Rate plan</englishDescription>
+		<rateProduct>0.5</rateProduct>
+			<precedence>-1</precedence>
+			<rate2>0</rate2>
+		<bundleQuantity>0</bundleQuantity>
+		<pricing>Flat</pricing>
+		<bundledPeriod>One time</bundledPeriod>
+		<rateProduct>0</rateProduct>
+		<IncludedQuantity>1000</IncludedQuantity>
+		
+		
+	</testdataset>
+	
+	<testdataset name="addPlanWithRateMultipleProduct" category="ap" testenv="develop|lab3">
+		<productCode>Discounted SMS Rate plan</productCode>
+		<description>Discounted SMS Rate plan</description>
+		<englishDescription>Discounted SMS Rate plan</englishDescription>
+		<precedence>-2</precedence>
+		<rate>99.99</rate>
+		<bundleQuantity>0</bundleQuantity>
+		<rate1>1</rate1>
+		<IncludedQuantity>1000</IncludedQuantity>
+		<bundledPeriod>One time</bundledPeriod>
+		<pricing>Flat</pricing>
+		<productCategory2>EU27</productCategory2>
+		<precedence2>-2</precedence2>
+		<quantity1>0</quantity1>
+		<period2>One time</period2>
+		<pricing2>Flat</pricing2>
+		<rate2>0.025</rate2>
+	</testdataset>
+	
+	<testdataset name="addPlanWithThreeProduct" category="ap" testenv="develop|lab3">
+		<productCode>Discounted SMS Rate plan</productCode>
+		<description>Discounted SMS Rate plan</description>
+		<englishDescription>Basic Tariff plan</englishDescription>
+		<precedence>-1</precedence>
+		<rate>99.99</rate>
+		<bundleQuantity>1</bundleQuantity>
+		<rateProduct>1</rateProduct>
+	
+		<bundledPeriod>Monthly</bundledPeriod>
+		<pricing>Flat</pricing>
+		<productCategory2>Connection Fee</productCategory2>
+		<precedence2>-1</precedence2>
+		<quantity1>1</quantity1>
+		<period2>One time</period2>
+		<pricing2>Flat</pricing2>
+		<rate1>10</rate1>
+		<productCategory3>GPRS</productCategory3>
+		<precedence3>-1</precedence3>
+		<quantity2>1</quantity2>
+		<period3>Monthly</period3>
+		<pricing3>Flat</pricing3>
+		
+			<productCategory4>SMS</productCategory4>
+		<precedence4>-1</precedence4>
+		<quantity3>1</quantity3>
+		<period4>Monthly</period4>
+		<pricing4>Flat</pricing4>
+		<rate4>30</rate4>
+	</testdataset>
+	
+		<testdataset name="AddPlanwithDate" category="ap" testenv="develop|lab3">
+		<productCode>Dependency Plan</productCode>
+		<description>Dependency Plan</description>
+		<englishDescription>Dependency Plan</englishDescription>
+		<rateProduct>0.5</rateProduct>
+			<precedence>-1</precedence>
+		<bundleQuantity>0</bundleQuantity>
+		<rateProduct>0</rateProduct>
+		<IncludedQuantity>1000</IncludedQuantity>
+		<bundledPeriod>One time</bundledPeriod>
+		<pricing2>Flat</pricing2>
+	</testdataset>
+	
+	<testdataset name="AddPlanwithHistoric" category="apwh" testenv="develop|lab3">
+		<productCode>Fruit Plan_{RANDOM}</productCode>	
+		<englishDescription>Fruit Plan </englishDescription>
+		<rate>200</rate>		
+	</testdataset>
+	
+</testdata>

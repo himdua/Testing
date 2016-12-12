@@ -1,0 +1,14 @@
+package main.java;
+
+import org.testng.annotations.Test;
+
+
+public class TestClass {
+
+	MainClass mc= new MainClass();
+	@Test
+	mc.
+
+	
+	}
+}

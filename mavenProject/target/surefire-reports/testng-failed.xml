@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [TestClass]" parallel="tests">
+  <parameter name="webBrowser" value="IE"/>
+  <test name="Demo">
+    <parameter name="webBrowser" value="Firefox"/>
+    <classes>
+      <class name="test.java.TestClass"/>
+      <class name="test.java.NewClass"/>
+    </classes>
+  </test> <!-- Demo -->
+  <test name="IEDemo">
+    <parameter name="webBrowser" value="IE"/>
+    <classes>
+      <class name="test.java.TestClass"/>
+      <class name="test.java.NewClass"/>
+    </classes>
+  </test> <!-- IEDemo -->
+  <test name="Demo(failed)" parallel="tests">
+    <parameter name="webBrowser" value="Firefox"/>
+    <classes>
+      <class name="test.java.NewClass">
+        <methods>
+          <include name="seleniumTest"/>
+        </methods>
+      </class> <!-- test.java.NewClass -->
+      <class name="test.java.TestClass">
+        <methods>
+          <include name="seleniumTest"/>
+        </methods>
+      </class> <!-- test.java.TestClass -->
+    </classes>
+  </test> <!-- Demo(failed) -->
+  <test name="IEDemo(failed)" parallel="tests">
+    <parameter name="webBrowser" value="IE"/>
+    <classes>
+      <class name="test.java.NewClass">
+        <methods>
+          <include name="seleniumTest"/>
+        </methods>
+      </class> <!-- test.java.NewClass -->
+      <class name="test.java.TestClass">
+        <methods>
+          <include name="seleniumTest"/>
+        </methods>
+      </class> <!-- test.java.TestClass -->
+    </classes>
+  </test> <!-- IEDemo(failed) -->
+</suite> <!-- Failed suite [TestClass] -->

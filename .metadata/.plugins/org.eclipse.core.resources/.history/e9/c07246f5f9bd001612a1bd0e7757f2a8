@@ -1,0 +1,65 @@
+package main.java;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class MainClass {
+	public WebDriver driver;
+	
+	public WebDriver launchBrowser(String browser){
+		driver=null;
+		switch (browser){
+		
+		case "Firefox":
+			driver= new FirefoxDriver();
+			break;
+			
+		case "IE":
+			driver=new ChromeDriver();
+			String path=System.getProperty("user.dir");
+			System.setProperty("webdriver.chrome.driver",path+"//drivers//IEDriverServer.exe");
+			break;
+		}
+		
+		case "Chrome":
+		driver=new ChromeDriver();
+		String path=System.getProperty("user.dir");
+		System.setProperty("webdriver.chrome.driver",path+"//drivers//IEDriverServer.exe");
+		break;
+	}
+		return driver;
+		
+	}
+	
+	public void openApplication(){
+		driver.manage().window().maximize();
+		driver.get("https://www.google.co.in/");
+	}
+		
+	public void a() {		
+		System.out.println("Test Project ::::::A");
+		System.out.println("Successfully Run :::::::A");
+
+}
+	
+	public void b() {
+		System.out.println("Test Project::::::::::B");
+		System.out.println("Successfully Run::::::::::B");
+
+}
+	
+	public void c() {
+		System.out.println("Test Project:::C");
+		System.out.println("Successfully Run ::::::::C");
+
+}
+	
+	public void d() {
+		System.out.println("Test Project:::::::::D");
+		System.out.println("Successfully Run ::::::::::::D");
+
+}
+	
+}

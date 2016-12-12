@@ -1,0 +1,14 @@
+package test.java;
+
+import main.java.MainClass;
+
+import org.testng.annotations.Test;
+
+
+public class TestClass extends MainClass {
+
+	public MainClass mc= new MainClass();
+
+	
+	}
+

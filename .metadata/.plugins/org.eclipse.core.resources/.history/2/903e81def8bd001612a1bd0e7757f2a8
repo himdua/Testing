@@ -1,0 +1,41 @@
+package main.java;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class MainClass {
+	public WebDriver driver;
+	
+	public launchBrowser(String browser)
+	
+	public void openApplication(){
+		driver.manage().window().maximize();
+		driver.get("https://www.google.co.in/");
+	}
+		
+	public void a() {		
+		System.out.println("Test Project ::::::A");
+		System.out.println("Successfully Run :::::::A");
+
+}
+	
+	public void b() {
+		System.out.println("Test Project::::::::::B");
+		System.out.println("Successfully Run::::::::::B");
+
+}
+	
+	public void c() {
+		System.out.println("Test Project:::C");
+		System.out.println("Successfully Run ::::::::C");
+
+}
+	
+	public void d() {
+		System.out.println("Test Project:::::::::D");
+		System.out.println("Successfully Run ::::::::::::D");
+
+}
+	
+}

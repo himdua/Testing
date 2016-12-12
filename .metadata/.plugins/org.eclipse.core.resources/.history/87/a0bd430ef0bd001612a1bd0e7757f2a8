@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite thread-count="5" verbose="1" name="TestClass"
+	annotations="JDK">
+	
+	<test name="Demo" junit="false" preserve-order="true">
+		<classes>
+			<class name="main.java.TestClass">	
+			</class>
+		</classes>
+	</test>
+</suite> 
