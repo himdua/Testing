@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [GirafficTestSuite]">
+  <test name="GirafficTestSuite(failed)">
+    <classes>
+      <class name="com.giraffic.testscripts.TestingOnDifferentApp">
+        <methods>
+          <include name="closeApp"/>
+          <include name="testingOnDifferentApp" invocation-numbers="0 2"/>
+        </methods>
+      </class> <!-- com.giraffic.testscripts.TestingOnDifferentApp -->
+    </classes>
+  </test> <!-- GirafficTestSuite(failed) -->
+</suite> <!-- Failed suite [GirafficTestSuite] -->

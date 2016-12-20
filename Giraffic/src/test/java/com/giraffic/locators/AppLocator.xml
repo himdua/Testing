@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+	<Youtube>
+		<SearchMenu><![CDATA[com.google.android.youtube:id/menu_search]]></SearchMenu>
+		<TB_Search><![CDATA[search_edit_text]]></TB_Search>
+		<BTN_Title><![CDATA[title]]></BTN_Title>
+		<BTN_FullScreen><![CDATA[fullscreen_button]]></BTN_FullScreen>
+		<BTN_Play_Pause><![CDATA[player_control_play_pause_replay_button]]></BTN_Play_Pause>
+		<videoPlayer><![CDATA[com.google.android.youtube:id/expand_button]]></videoPlayer>
+		<TB_SearchField><![CDATA[com.google.android.youtube:id/search_query]]></TB_SearchField>
+		<Video_Time><![CDATA[android.view.View]]></Video_Time>
+		<BTNReplay><![CDATA[com.google.android.youtube:id/play]]></BTNReplay>
+		<Ad_Popup><![CDATA[item_details_panel]]></Ad_Popup>
+
+	</Youtube>
+
+	<DailyMotion>
+		<SearchMenu><![CDATA[com.dailymotion.dailymotion:id/menu_search]]></SearchMenu>
+		<LTSkipSignIn><![CDATA[com.dailymotion.dailymotion:id/skipButton]]></LTSkipSignIn>
+		<TB_Search><![CDATA[search_src_text]]></TB_Search>
+		<BTN_Title><![CDATA[textViewTitle]]></BTN_Title>
+		<BTN_FullScreen><![CDATA[fullscreen_button]]></BTN_FullScreen>
+		<BTN_Play_Pause><![CDATA[com.dailymotion.dailymotion:id/textViewTitle]]></BTN_Play_Pause>
+		<videoPlayer><![CDATA[com.dailymotion.dailymotion:id/optionsButton]]></videoPlayer>
+		<BTNReplay><![CDATA[com.dailymotion.dailymotion:id/centerButton]]></BTNReplay>
+		<Ad_Popup><![CDATA[item_details_panel]]></Ad_Popup>
+	</DailyMotion>
+
+	<DirecTV>
+		<BTNAgree><![CDATA[com.directv.dvrscheduler:id/tc_btn_agree]]></BTNAgree>
+		<BTNAllow><![CDATA[com.android.packageinstaller:id/permission_allow_button]]></BTNAllow>
+		<TB_Email><![CDATA[//android.widget.EditText[@text='DIRECTV email or AT&T Access ID']]]></TB_Email>
+		<TB_Password><![CDATA[//android.widget.LinearLayout[@index='1']//android.widget.EditText[@index='2']]]></TB_Password>
+		<BTNSignIn><![CDATA[//android.widget.Button[@text='Sign In']]]></BTNSignIn>
+		<BTNCategory><![CDATA[com.directv.dvrscheduler:id/headerMenuIcon]]></BTNCategory>
+		<ListCategory><![CDATA[//android.widget.ListView[@resource-id='com.directv.dvrscheduler:id/list']/android.widget.LinearLayout]]></ListCategory>
+		<BTNSkip><![CDATA[com.directv.dvrscheduler:id/btn_skip]]></BTNSkip>
+		<SeekBar><![CDATA[com.directv.dvrscheduler:id/seekBar_BandWidth]]></SeekBar>
+		<BTNWatchNow><![CDATA[com.directv.dvrscheduler:id/watchNowBtn]]></BTNWatchNow>
+		<BTNWatch><![CDATA[com.directv.dvrscheduler:id/dialog_popup_btn_watch_resume_purchase]]></BTNWatch>
+		<BTNWatchOnPhone><![CDATA[com.directv.dvrscheduler:id/watchOnBtn]]></BTNWatchOnPhone>
+		<BTNDismiss><![CDATA[//android.widget.Button[@text='DISMISS']]]></BTNDismiss>
+		<VideoBlock><![CDATA[//android.widget.LinearLayout[@index='6']/android.support.v7.widget.RecyclerView]]></VideoBlock>
+		<Video_Error><![CDATA[android:id/message]]></Video_Error>
+		<Msg_Upgrade><![CDATA[com.directv.dvrscheduler:id/priceSec1]]></Msg_Upgrade>
+		<BTNOk><![CDATA[//android.widget.Button[@text='OK']]]></BTNOk>
+	</DirecTV>
+
+	<NFL>
+		<BTNDismiss><![CDATA[//android.widget.Button[@text='DISMISS']]]></BTNDismiss>
+		<VideoBlock><![CDATA[//android.widget.LinearLayout[@index='6']/android.support.v7.widget.RecyclerView]]></VideoBlock>
+	</NFL>
+
+</Locators>
+
+

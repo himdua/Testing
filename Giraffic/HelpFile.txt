@@ -1,0 +1,6 @@
+# Commands to run test suite using Ant:
+
+1- Open Commandline.
+2- Naviagate to Project.
+3- Run this command: 
+	ant runTest

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[Test videos on NFL<br>]]>
+    </line>
+    <line>
+      <![CDATA[Play video<br>]]>
+    </line>
+    <line>
+      <![CDATA[Test videos on NBC<br>]]>
+    </line>
+    <line>
+      <![CDATA[Play video<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="GirafficTestSuite" duration-ms="351962" started-at="2016-12-19T05:57:02Z" finished-at="2016-12-19T06:02:54Z">
+    <groups>
+    </groups>
+    <test name="GirafficTestSuite" duration-ms="351962" started-at="2016-12-19T05:57:02Z" finished-at="2016-12-19T06:02:54Z">
+      <class name="com.giraffic.testscripts.TestingOnDifferentApp">
+        <test-method status="PASS" signature="testingOnDifferentApp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.giraffic.testscripts.TestingOnDifferentApp@26653222]" name="testingOnDifferentApp" duration-ms="4" started-at="2016-12-19T11:27:03Z" data-provider="AppsName" finished-at="2016-12-19T11:27:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Youtube]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.google.android.youtube]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.google.android.youtube.HomeActivity]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingOnDifferentApp -->
+        <test-method status="PASS" signature="testingOnDifferentApp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.giraffic.testscripts.TestingOnDifferentApp@26653222]" name="testingOnDifferentApp" duration-ms="0" started-at="2016-12-19T11:27:03Z" data-provider="AppsName" finished-at="2016-12-19T11:27:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DailyMotion]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.dailymotion.dailymotion]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.dailymotion.dailymotion.ui.activity.MainActivity_]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingOnDifferentApp -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.giraffic.testscripts.TestingOnDifferentApp@26653222]" name="closeApp" is-config="true" duration-ms="1" started-at="2016-12-19T11:27:03Z" finished-at="2016-12-19T11:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.giraffic.testscripts.TestingOnDifferentApp@26653222]" name="closeApp" is-config="true" duration-ms="0" started-at="2016-12-19T11:27:03Z" finished-at="2016-12-19T11:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="testingOnDifferentApp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.giraffic.testscripts.TestingOnDifferentApp@26653222]" name="testingOnDifferentApp" duration-ms="0" started-at="2016-12-19T11:27:03Z" data-provider="AppsName" finished-at="2016-12-19T11:27:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DirecTV]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.directv.dvrscheduler]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.directv.dvrscheduler.activity.core.Setup]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingOnDifferentApp -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.giraffic.testscripts.TestingOnDifferentApp@26653222]" name="closeApp" is-config="true" duration-ms="1" started-at="2016-12-19T11:27:03Z" finished-at="2016-12-19T11:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="testingOnDifferentApp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.giraffic.testscripts.TestingOnDifferentApp@26653222]" name="testingOnDifferentApp" duration-ms="297669" started-at="2016-12-19T11:27:03Z" data-provider="AppsName" finished-at="2016-12-19T11:32:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NFL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.gotv.nflgamecenter.us.lite]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.nfl.mobile.SplashActivity]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test videos on NFL<br>]]>
+            </line>
+            <line>
+              <![CDATA[Play video<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testingOnDifferentApp -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.giraffic.testscripts.TestingOnDifferentApp@26653222]" name="closeApp" is-config="true" duration-ms="1453" started-at="2016-12-19T11:32:00Z" finished-at="2016-12-19T11:32:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="testingOnDifferentApp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.giraffic.testscripts.TestingOnDifferentApp@26653222]" name="testingOnDifferentApp" duration-ms="51092" started-at="2016-12-19T11:32:02Z" data-provider="AppsName" finished-at="2016-12-19T11:32:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NBC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.msnbc.nightlynews]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.nbcnews.newsappui.activities.SplashActivity]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test videos on NBC<br>]]>
+            </line>
+            <line>
+              <![CDATA[Play video<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testingOnDifferentApp -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.giraffic.testscripts.TestingOnDifferentApp@26653222]" name="closeApp" is-config="true" duration-ms="970" started-at="2016-12-19T11:32:53Z" finished-at="2016-12-19T11:32:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="testingOnDifferentApp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.giraffic.testscripts.TestingOnDifferentApp@26653222]" name="testingOnDifferentApp" duration-ms="1" started-at="2016-12-19T11:32:54Z" data-provider="AppsName" finished-at="2016-12-19T11:32:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MLB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.bamnetworks.mobile.android.gameday.atbat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.bamnetworks.mobile.android.gameday.activities.StandingsWebviewActivity]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingOnDifferentApp -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.giraffic.testscripts.TestingOnDifferentApp@26653222]" name="closeApp" is-config="true" duration-ms="0" started-at="2016-12-19T11:32:54Z" finished-at="2016-12-19T11:32:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.giraffic.testscripts.TestingOnDifferentApp -->
+    </test> <!-- GirafficTestSuite -->
+  </suite> <!-- GirafficTestSuite -->
+</testng-results>
